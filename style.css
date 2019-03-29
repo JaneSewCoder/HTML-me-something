@@ -3,26 +3,22 @@ body {
 	max-width: 1024px;
 	margin: 0 auto;
 	background-color: black;
-	font-size: 70%;
-}
+	font-size: 70%;}
 
 header,
 main,
 footer {
 	background-color: rgb(1, 80, 1);
     font-size: 1.5em;
-    color: white
-}
+    color: white}
 
 header {
-	padding: 1em 0;
-}
+	padding: 1em 0;}
 
 header h1 {
-	text-align: left;
-}
+	text-align: left;}
 
-h1, h2, h3 {
+h1, .town, h3 {
 	margin: 0;
 }
 
@@ -30,7 +26,7 @@ h1 {
 	font-size: 2em;
 }
 
-main h2 {
+main .town {
 	padding: 0.625em 0 0.625em 0.625em;
 }
 
@@ -57,6 +53,9 @@ nav ul li {
     font-size: 1em;
     color: black
 }
+
+#link { color: royalblue}
+#link:visited {color: royalblue}
 
 p {
 	padding: 1.5em;
